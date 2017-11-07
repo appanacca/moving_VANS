@@ -1,0 +1,7 @@
+eulerClass.C 
+
+LIB = $(FOAM_USER_LIBBIN)/libeulerClass
+
+
+
+

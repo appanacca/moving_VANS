@@ -1,0 +1,12 @@
+EXE_INC = \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude \
+    -I /home/nluminar/OpenFOAM/nluminar-3.0.0/applications/solvers/movingVANS/nanoflann/include/ \
+    -I /home/nluminar/OpenFOAM/nluminar-3.0.0/applications/solvers/movingVANS/ \
+    -I /home/nluminar/eigen-3.3.3/
+EXE_LIBS = \
+    -lfiniteVolume \
+    -lsampling \
+    -lmeshTools
+
+
